@@ -78,7 +78,13 @@ Start applet (make sure to add emv-card-simulator to class path):
 java -cp "jcardsim-3.0.5-SNAPSHOT.jar:/home/gregorio/src/java/emv/emv-card-simulator/build/libs/emv-card-simulator.jar" com.licel.jcardsim.remote.VSmartCard jcardsim.cfg
 ````
 
-
+NOTE:
+- Build the emv-card-simulator with:
+```bash
+cd emv-card-simulator
+gradle build -x test
+```
+(Ignoring the test because they are failing)
 
 Test the applet:
 
