@@ -44,7 +44,4 @@ EMV Applications Applets:
 
 ## HL Process-Flow of EMV Card generation
 
-Chip Card Manufacturers ==> Chip Card ==> Embossing Vendors ==> Personalized Cards
-
-
-Issuer ==> Personalization file (embossing file)
+![Personalization process](img/c01-highlevel-personalization-process.png)
